@@ -1,12 +1,47 @@
 body {
+    width: 270px;
+    margin: 400px auto;
     align-content: center;
     background: url(bg/fon.jpg) no-repeat; 
     background-size: cover;
 
-   
 }
 
 button {
     background-color: tan;
 }
 
+.a {
+    width: 4em;
+    height: 2em;
+    margin-right: 4px
+
+}
+
+.q {
+    width: 3em;
+    height: 2em;
+    color: aliceblue;
+    background-color: rgb(97, 16, 16);
+    margin-right: 4px
+
+}
+
+.ti{
+    color: transparent;    
+	-webkit-background-clip: text;
+	background-clip: text;
+	background-image: linear-gradient( red, rgb(23, 2, 2));
+    font-size: 40px;
+    font-weight: bold;
+    
+   
+}
+.w {
+    width: 20em;
+    height: 2em;
+}
+
+.p {
+    background-color: rgb(247, 247, 0);
+}

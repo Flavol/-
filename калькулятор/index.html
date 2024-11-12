@@ -7,27 +7,39 @@
 <script src="app.js"></script>
 </head>
 <body>
+    <p align="center" class="ti"> Калькулятор </p>
     <!-- поле ввода первого числа -->
-    <input id="num1" />
+    <input id="num1" class="w" />
 
     <!-- блок с кнопками -->
-    <div id="operator_btns" class="vcu">
-        <button id="plus" onclick="op='+'">+</button>
-        <button id="minus" onclick="op='-'">-</button>
-        <button id="times" onclick="op='*'">x</button>
-        <button id="divide" onclick="op='/'">:</button>
+    <div id="operator_btns" class="i">
+        <button id="plus" onclick="op='+'" class="a">+</button>
+        <button id="minus" onclick="op='-'" class="a">-</button>
+        <button id="times" onclick="op='*'" class="a">x</button>
+        <button id="divide" onclick="op='/'" class="a">:</button>
+    </div>
+
+    <div id="operator_btns" class="o">
+        <button id="plus" onclick="op='0'" class="q">0</button>
+        <button id="plus" onclick="op='1'" class="q">1</button>
+        <button id="plus" onclick="op='2'" class="q">2</button>
+        <button id="plus" onclick="op='3'" class="q">3</button>
+        <button id="plus" onclick="op='4'" class="q">4</button>
+        <button id="plus" onclick="op='5'" class="q">5</button>
+        <button id="plus" onclick="op='6'" class="q">6</button>
+        <button id="plus" onclick="op='7'" class="q">7</button>
+        <button id="plus" onclick="op='8'" class="q">8</button>
+        <button id="plus" onclick="op='9'" class="q">9</button>
     </div>
     
-    <!-- поле ввода второго числа-->
-    <input id="num2" />
+
+    <!-- поле ввода второго числа -->
+    <input id="num2" class="w"/>
     <br>
 
     <!-- кнопка для расчетов -->
-    <button onclick="func()" class="f">Посчитать</button>
-    <p id="result"></p>
-
-
-    
+    <button onclick="func()" class="g">Посчитать </button>
+    <p id="result" class="p"></p>
 
 </body>
 </html>
